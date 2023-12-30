@@ -7,7 +7,7 @@ class_list = {'0': 'Negative', '1': 'Neutral', '2': 'Positve'}
 
 st.title('Sentiment analysis from Vietnamese students’ feedback')
 
-image = Image.open('feedback.jpg')
+image = Image.open('feedback.JPG')
 st.image(image)
 
 input_ec = open('ec_vsfc.pkl', 'rb')
